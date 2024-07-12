@@ -3,7 +3,7 @@ import feature from "/src/assets/feature.png";
 
 const Features = () => {
   return (
-    <div className="px-4">
+    <div className="px-4 lg:px-16">
       <div className="flex flex-col lg:flex-row lg:space-x-4 justify-center items-center w-ful h-full">
       <img src={feature} alt="feature-image" className="lg:order-2 lg:w-[40%]" />
         <div className="lg:order-1 lg:w-1/2 space-y-4">

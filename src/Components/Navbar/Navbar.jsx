@@ -59,7 +59,7 @@ const Navbar = () => {
         initial="hidden"
         animate="visible"
         className={`flex items-center justify-between md:justify-around w-full px-4 py-8 fixed left-0 right-0 top-0 z-20 ${
-          color ? "bg-[#F0E9E0]" : "bg-none"
+          color ? "bg-white" : "bg-none"
         }`}
       >
         <Link
@@ -128,7 +128,7 @@ const Navbar = () => {
               exit="exit"
               initial="hidden"
               animate="visible"
-              className=" md:hidden sm:order-1 font-semibold tracking-wider flex flex-col items-center justify-center h-screen gap-10 fixed left-0 right-0 top-0 z-10 "
+              className=" md:hidden sm:order-1 bg-white font-semibold tracking-wider flex flex-col items-center justify-center h-screen gap-10 fixed left-0 right-0 top-0 z-10 "
             >
               <Link to="/" className="capitalize" onClick={closeMenu}>
                 Home

@@ -18,7 +18,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="px-4 pt-12 lg:flex lg:gap-12 lg:px-16">
+    <div className="px-4 pt-12 md:px-8 lg:flex lg:gap-12 lg:px-36">
       <div className="lg:w-[50%]">
         <Link
           to="/"

@@ -12,7 +12,7 @@ import { destination } from "../data";
 
 export default function SwiperCard() {
   return (
-    <div className="py-10 px-4 ">
+    <div className="py-10 px-4 md:px-8 lg:px-32">
       <div className="text-center py-10 lg:text-start">
         <h1 className="text-lg uppercase text-[#F85E9F] tracking-widest font-semibold">
           Services
