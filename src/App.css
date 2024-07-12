@@ -1,0 +1,16 @@
+.details {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.details.show {
+  max-height: 200px; /* Adjust this value as needed */
+}
+
+@media (min-width: 768px) {
+  .details {
+    max-height: none;
+    overflow: visible;
+  }
+}

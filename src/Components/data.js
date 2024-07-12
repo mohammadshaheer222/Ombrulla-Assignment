@@ -77,3 +77,25 @@ export const features = [
     description: "Lorem Ipsum is not simply random text",
   },
 ];
+
+
+//footer
+export const details = [
+  {
+    title: "Company",
+    details: ["About", "Career", "Mobile"],
+  },
+  {
+    title: "Contact Us",
+    details: ["Why Travlog?", "Partner with us", "FAQ's", "Blog"],
+  },
+  {
+    title: "Meet Us",
+    details: [
+      "+00 92 1234 56789",
+      "info@travlog.com",
+      "205. RStreet, New York",
+      "BD23200",
+    ],
+  },
+];

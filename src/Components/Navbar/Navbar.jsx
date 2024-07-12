@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, Outlet } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { MdMenu, MdClose } from "react-icons/md";
+import { MdClose } from "react-icons/md";
 import logo from "/src/assets/logo.png";
 import menu from "/src/assets/menu.png";
 
