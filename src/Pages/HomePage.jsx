@@ -1,4 +1,5 @@
 import Logo from "../Components/CompanyLogos/Logo";
+import SwiperCard from "../Components/Destination/SwiperCard";
 import Features from "../Components/Features/Features";
 import Footer from "../Components/Footer/Footer";
 import Navbar from "../Components/Navbar/Navbar";
@@ -10,6 +11,7 @@ const HomePage = () => {
     <div>
       <Navbar />
       <Logo />
+      <SwiperCard />
       <Services />
       <Travel />
       <Features />

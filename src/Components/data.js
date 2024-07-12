@@ -99,3 +99,48 @@ export const details = [
     ],
   },
 ];
+
+
+//destination
+import destination1 from "/src/assets/destination1.png"
+import destination2 from "/src/assets/destination2.png"
+import destination3 from "/src/assets/destination3.png"
+
+export const destination = [
+  {
+    image: destination2,
+    price: 550.16,
+    title: "Paradise Beach, Bantayan Island",
+    place: "Rome, Italy"
+  },
+  {
+    image: destination1,
+    price: 20.99,
+    title: "Ocean with full of Colors",
+    place: "Maldives"
+  },
+  {
+    image: destination3,
+    price: 150.99,
+    title: "Mountain View, Above the cloud",
+    place: "United Arab Emirates"
+  },
+  {
+    image: destination2,
+    price: 550.16,
+    title: "Paradise Beach, Bantayan Island",
+    place: "Rome, Italy"
+  },
+  {
+    image: destination1,
+    price: 20.99,
+    title: "Ocean with full of Colors",
+    place: "Maldives"
+  },
+  {
+    image: destination3,
+    price: 150.99,
+    title: "Mountain View, Above the cloud",
+    place: "United Arab Emirates"
+  },
+];
