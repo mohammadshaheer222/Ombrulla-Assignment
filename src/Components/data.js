@@ -58,21 +58,24 @@ export const works = [
 ];
 
 //feature cards
+import location from "/src/assets/location.png"
+import calender from "/src/assets/calender.png"
+import coupon from "/src/assets/coupon.png"
 export const features = [
   {
-    logo: service1,
+    logo: location,
     title: "We offer best services",
     description: "Lorem Ipsum is not simply random text",
   },
 
   {
-    logo: service1,
+    logo: calender,
     title: "Schedule your trip",
     description: "It has roots in a piece of classical",
   },
 
   {
-    logo: service1,
+    logo: coupon,
     title: "Get discounted coupens",
     description: "Lorem Ipsum is not simply random text",
   },

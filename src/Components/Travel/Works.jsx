@@ -10,7 +10,7 @@ const Works = (props) => {
       onExit={() => setCounterstate(false)}
     >
       <div className="mt-4 py-8 rounded-3xl space-y-2 border-[1px]">
-        <b className="text-center text-2xl text-[#FF5722]">
+        <b className="text-center text-4xl text-[#FF5722] ">
           {counterState && (
             <CountUp start={0} end={props.count} delay={0}>
               {props.count}
@@ -18,7 +18,7 @@ const Works = (props) => {
           )}
           +
         </b>
-        <h2 className="text-center font-light">{props.role}</h2>
+        <h2 className="text-center text-[18px] font-light">{props.role}</h2>
       </div>
     </ScrollTrigger>
   );

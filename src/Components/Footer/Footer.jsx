@@ -18,7 +18,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="px-4 pt-12 md:px-8 lg:flex lg:gap-12 lg:px-36">
+    <div className="px-4 pt-12 md:px-8 lg:flex lg:justify-around lg:items-center  lg:gap-12 lg:pl-28 w-full">
       <div className="lg:w-[50%]">
         <Link
           to="/"
@@ -27,7 +27,7 @@ const Footer = () => {
           <img src={logo} alt="logo" width={40} height={40} />
           <h4 className="text-2xl font-bold">Travlog</h4>
         </Link>
-        <p className="pt-6">
+        <p className="pt-6 text-[#19182580]">
           Contrary to popular belief, Lorem Ipsum is not simply random text. It
           has roots in a piece of classical Latin literature from 45 BC.
         </p>
@@ -38,23 +38,23 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="py-8 md:flex md:justify-between lg:w-[50%]">
+      <div className="py-8 md:flex md:justify-between md:items-center lg:flex-row lg:items-start lg:gap-8 lg:justify-between lg:w-[50%]">
         {details.map((data, index) => (
           <div
             key={index}
             className="md:flex md:flex-col md:justify-start md:items-start"
           >
             <div
-              className="flex items-center justify-between cursor-pointer md:flex-col space-y-6"
+              className="flex items-center justify-between cursor-pointer md:flex-col space-y-4"
               onClick={() => toggleSection(data.title)}
             >
-              <p className="font-semibold">{data.title}</p>
+              <p className="font-bold">{data.title}</p>
               <MdOutlineArrowCircleDown className="md:hidden" />
             </div>
             <div
               className={`details ${openSections[data.title] ? "show" : ""}`}
             >
-              <ul className="space-y-6 mt-6">
+              <ul className="space-y-4 py-2">
                 {data.details.map((detail, index) => (
                   <li key={index}>{detail}</li>
                 ))}

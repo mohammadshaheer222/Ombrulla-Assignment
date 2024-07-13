@@ -64,7 +64,7 @@ const Navbar = () => {
       >
         <Link
           to="/"
-          className="cursor-pointer flex gap-4 sm:order-2 md:order-1"
+          className="cursor-pointer flex items-center gap-4 sm:order-2 md:order-1"
         >
           <img src={logo} alt="logo" width={40} height={40} />
           <h4 className="text-2xl font-bold">Travlog</h4>
