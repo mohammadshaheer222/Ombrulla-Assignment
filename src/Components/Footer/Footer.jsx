@@ -32,9 +32,21 @@ const Footer = () => {
           has roots in a piece of classical Latin literature from 45 BC.
         </p>
         <div className="flex gap-8 pt-6">
-          <img src={fb} alt="facebook-logo" />
-          <img src={twitter} alt="twitter-logo" />
-          <img src={instagram} alt="instagram-logo" />
+          <img
+            src={fb}
+            alt="facebook-logo"
+            className="active:scale-95 active:shadow-lg duration-100 cursor-pointer"
+          />
+          <img
+            src={twitter}
+            alt="twitter-logo"
+            className="active:scale-95 active:shadow-lg duration-100 cursor-pointer"
+          />
+          <img
+            src={instagram}
+            alt="instagram-logo"
+            className="active:scale-95 active:shadow-lg duration-100 cursor-pointer"
+          />
         </div>
       </div>
 

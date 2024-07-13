@@ -13,8 +13,8 @@ const HomePage = () => {
       <Navbar />
       <Hero />
       <Logo />
-      <SwiperCard />
       <Services />
+      <SwiperCard />
       <Travel />
       <Features />
       <Footer />

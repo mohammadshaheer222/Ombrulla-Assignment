@@ -13,7 +13,7 @@ const Cards = () => {
           >
             <div
               style={{ backgroundColor: colors[index % colors.length] }}
-              className="w-[100px] h-[100px] rounded-3xl flex justify-center items-center"
+              className="w-[80px] h-[80px] md:w-[100px] md:h-[100px] rounded-3xl flex justify-center items-center"
             >
               <img src={data.logo} alt="logo" />
             </div>

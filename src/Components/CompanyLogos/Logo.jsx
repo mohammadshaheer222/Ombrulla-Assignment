@@ -17,7 +17,7 @@ const iconVariants = (duration) => ({
 
 const Logo = () => {
   return (
-    <div className="pb-6 pt-20 px-4 md:px-6 lg:px-10 xl:px-16 ">
+    <div className="py-12 px-4 md:px-6 lg:px-10 xl:px-16 ">
       <motion.div
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: -100 }}

@@ -3,12 +3,12 @@ import travel from "/src/assets/travel.png";
 import { works } from "../data";
 const Travel = () => {
   return (
-    <div className="px-4 py-10 md:px-8 lg:px-0 lg:pr-14 xl:pr-28 w-full lg:flex">
-      <div className="lg:w-[70%]">
-        <img className="w-full h-full" src={travel} alt="" />
+    <div className="px-4 md:py-10 md:px-8 lg:px-0 lg:pr-14 xl:pr-28 w-full lg:flex">
+      <div className="lg:w-[70%] pb-4">
+        <img className="w-full h-full" src={travel} alt="image" />
       </div>
 
-      <div className="text-center space-y-4 mt-10 lg:w-[30%] lg:flex lg:flex-col lg:justify-center lg:items-center lg:max-w-sm">
+      <div className="text-center space-y-2 mt-10 lg:w-[30%] lg:flex lg:flex-col lg:justify-center lg:items-center lg:max-w-sm">
         <h4 className="text-lg lg:text-2xl uppercase text-[#F85E9F] tracking-widest font-bold">
           Travel Point
         </h4>

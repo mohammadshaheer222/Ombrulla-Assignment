@@ -114,36 +114,42 @@ export const destination = [
     image: destination2,
     price: 550.16,
     title: "Paradise Beach, Bantayan Island",
-    place: "Rome, Italy"
+    place: "Rome, Italy",
+    rating: 4.8,
   },
   {
     image: destination1,
     price: 20.99,
-    title: "Ocean with full of Colors",
-    place: "Maldives"
+    title: "Ocean with full of Colors,ocean of colors",
+    place: "Maldives",
+    rating: 4.5,
   },
   {
     image: destination3,
     price: 150.99,
     title: "Mountain View, Above the cloud",
-    place: "United Arab Emirates"
+    place: "United Arab Emirates",
+    rating: 5.0,
   },
-  // {
-  //   image: destination2,
-  //   price: 550.16,
-  //   title: "Paradise Beach, Bantayan Island",
-  //   place: "Rome, Italy"
-  // },
-  // {
-  //   image: destination1,
-  //   price: 20.99,
-  //   title: "Ocean with full of Colors",
-  //   place: "Maldives"
-  // },
-  // {
-  //   image: destination3,
-  //   price: 150.99,
-  //   title: "Mountain View, Above the cloud",
-  //   place: "United Arab Emirates"
-  // },
+  {
+    image: destination2,
+    price: 550.16,
+    title: "Paradise Beach, Bantayan Island",
+    place: "Rome, Italy",
+    rating: 4.8,
+  },
+  {
+    image: destination1,
+    price: 20.99,
+    title: "Ocean with full of Colors,ocean of colors",
+    place: "Maldives",
+    rating: 4.5,
+  },
+  {
+    image: destination3,
+    price: 150.99,
+    title: "Mountain View, Above the cloud",
+    place: "United Arab Emirates",
+    rating: 5.0,
+  },
 ];

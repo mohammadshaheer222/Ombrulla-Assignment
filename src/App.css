@@ -5,7 +5,7 @@
 }
 
 .details.show {
-  max-height: 200px; /* Adjust this value as needed */
+  max-height: 200px;
 }
 
 @media (min-width: 768px) {
@@ -15,13 +15,14 @@
   }
 }
 
-/* Custom styling for the slider and slides */
+/* swipercard */
+
 .custom-slider {
-  margin: 0 -10px; /* Adjust margin as per your spacing requirement */
+  margin: 0 -10px;
 }
 
 .custom-slider .slick-slide {
-  padding: 0 10px; /* Adjust padding between slides */
+  padding: 0 10px;
 }
 
 .swiper-container {
@@ -30,11 +31,11 @@
 
 .arrow-container {
   position: absolute;
-  top: 10px; /* Adjust as per your design */
+  top: 10px;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 0 20px; /* Adjust padding as needed */
+  padding: 0 20px;
   z-index: 10;
 }
 
@@ -43,20 +44,19 @@
 }
 
 .next {
-  margin-left: auto; /* Adjust for right positioning */
+  margin-left: auto;
 }
 
 .prev {
-  margin-right: auto; /* Adjust for left positioning */
+  margin-right: auto;
 }
 
-/* Ensure consistent height for all slides */
 .slide-container {
-  height: 100%; /* Set a fixed height for each slide */
+  height: 100%;
 }
 
 .slide {
-  height: 100%; /* Ensure the slide takes full height */
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -65,9 +65,47 @@
 .slide-image {
   width: 100%;
   height: auto;
-  max-height: 200px; /* Adjust maximum height for images */
+  max-height: 200px;
 }
 
 .space-y-2 {
-  margin-top: 0.5rem; /* Adjust space between paragraphs */
+  margin-top: 0.5rem;
+}
+.custom-swiper-button-prev,
+.custom-swiper-button-next {
+  position: absolute;
+  top: -50px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  color: black;
+  transition: color 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  background-color: white;
+}
+
+.custom-swiper-button-prev:hover,
+.custom-swiper-button-next:hover {
+  color: white;
+  border-color: gray;
+  background-color: #5d50c6;
+}
+
+.custom-swiper-button-prev {
+  left: 10px;
+}
+
+.custom-swiper-button-next {
+  right: 10px;
+}
+
+.custom-swiper-button-prev .w-16,
+.custom-swiper-button-next .w-16 {
+  width: 32px;
+  height: 32px;
 }

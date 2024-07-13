@@ -21,18 +21,7 @@ const Navbar = () => {
     setIsOpen(false);
   };
 
-  const navbarVariant = {
-    hidden: {
-      opacity: 0,
-    },
-    visible: {
-      opacity: 1,
-      transition: {
-        delay: 0.4,
-        duration: 5,
-      },
-    },
-  };
+  
   const mobNavVariant = {
     hidden: {
       opacity: 0,
@@ -54,10 +43,7 @@ const Navbar = () => {
   };
   return (
     <div className={`${isOpen && "text-black"} pt-20`}>
-      <motion.nav
-        variants={navbarVariant}
-        initial="hidden"
-        animate="visible"
+      <nav
         className={`flex items-center justify-between md:justify-around w-full px-4 py-8 fixed left-0 right-0 top-0 z-20 ${
           color ? "bg-white" : "bg-none"
         }`}
@@ -88,14 +74,14 @@ const Navbar = () => {
         <div className="hidden sm:flex sm:order-3 sm:items-center sm:gap-4">
           <Link
             to="/login"
-            className="font-semibold capitalize"
+            className="font-semibold capitalize shadow-sm active:scale-95 active:shadow-lg duration-100 px-4 py-2 rounded-full"
             onClick={closeMenu}
           >
             Log In
           </Link>
           <Link
             to="/sign-up"
-            className=" capitalize bg-[#5D50C6] text-white px-4 py-2 rounded-full text-sm"
+            className=" capitalize bg-[#5D50C6] text-white px-4 py-2 rounded-full text-sm active:scale-95 active:shadow-lg duration-100 hover:bg-[#695adb]  active:bg-[#463b97] "
             onClick={closeMenu}
           >
             Sign Up
@@ -104,20 +90,20 @@ const Navbar = () => {
 
         {/* desktop */}
         <div className="hidden md:flex md:justify-center md:items-center tracking-widest md:gap-x-4 lg:gap-x-10  text-[#91825]  md:order-2">
-          <Link to="/" className=" Capitalize " onClick={closeMenu}>
+          <Link to="/home" className="capitalize font-bold text-[#19182580] hover:text-black" onClick={closeMenu}>
             Home
           </Link>
-          <Link to="/discover" className="Capitalize" onClick={closeMenu}>
+          <Link to="/discover" className="capitalize font-bold text-[#19182580] hover:text-black" onClick={closeMenu}>
             Discover
           </Link>
-          <Link to="/deals" className="Capitalize" onClick={closeMenu}>
+          <Link to="/deals" className="capitalize font-bold text-[#19182580] hover:text-black" onClick={closeMenu}>
             Special Deals
           </Link>
-          <Link to="/contact" className="Capitalize" onClick={closeMenu}>
+          <Link to="/contact" className="capitalize font-bold text-[#19182580] hover:text-black" onClick={closeMenu}>
             Contact
           </Link>
         </div>
-      </motion.nav>
+      </nav>
 
       {/* mobile */}
       <AnimatePresence>
@@ -130,21 +116,21 @@ const Navbar = () => {
               animate="visible"
               className=" md:hidden sm:order-1 bg-white font-semibold tracking-wider flex flex-col items-center justify-center h-screen gap-10 fixed left-0 right-0 top-0 z-10 "
             >
-              <Link to="/" className="capitalize" onClick={closeMenu}>
+              <Link to="/" className="capitalize font-bold text-[#19182580] hover:text-black" onClick={closeMenu}>
                 Home
               </Link>
-              <Link to="/discover" className=" capitalize" onClick={closeMenu}>
+              <Link to="/discover" className="capitalize font-bold text-[#19182580] hover:text-black" onClick={closeMenu}>
                 Discover
               </Link>
-              <Link to="/deals" className=" capitalize" onClick={closeMenu}>
+              <Link to="/deals" className="capitalize font-bold text-[#19182580] hover:text-black" onClick={closeMenu}>
                 Special Deals
               </Link>
-              <Link to="/contact" className=" capitalize" onClick={closeMenu}>
+              <Link to="/contact" className="capitalize font-bold text-[#19182580] hover:text-black" onClick={closeMenu}>
                 Contact
               </Link>
               <Link
                 to="/login"
-                className="font-semibold capitalize sm:hidden"
+                 className="font-semibold capitalize shadow-sm  sm:hidden active:scale-95 active:shadow-lg duration-100 px-4 py-2 rounded-full"
                 onClick={closeMenu}
               >
                 Log In

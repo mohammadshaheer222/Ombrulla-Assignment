@@ -2,8 +2,8 @@ import { services } from "../data";
 
 const Services = () => {
   return (
-    <div className="px-4 pb-10 sm:space-x-4 sm:space-y-0 lg:flex lg:px-16 xl:px-32 lg:justify-center lg:items-center ">
-      <div className="text-center space-y-4 lg:text-start lg:w-[70%]">
+    <div className="px-4 md:py-10  sm:space-x-4 sm:space-y-0 lg:flex lg:px-16 xl:px-32 lg:justify-center lg:items-center ">
+      <div className="text-center space-y-2 lg:text-start lg:w-[70%]">
         <h1 className="text-lg lg:text-2xl uppercase text-[#F85E9F] tracking-widest font-bold">
           Services
         </h1>
