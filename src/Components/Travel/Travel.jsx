@@ -9,10 +9,10 @@ const Travel = () => {
       </div>
 
       <div className="text-center space-y-4 mt-10 lg:w-[30%] lg:flex lg:flex-col lg:justify-center lg:items-center lg:max-w-sm">
-        <h4 className="text-2xl uppercase text-[#F85E9F] tracking-widest font-bold">
+        <h4 className="text-lg lg:text-2xl uppercase text-[#F85E9F] tracking-widest font-bold">
           Travel Point
         </h4>
-        <h1 className="text-4xl font-bold tracking-wider">
+        <h1 className="text-2xl lg:text-4xl font-bold tracking-wider">
           We helping you find your dream location
         </h1>{" "}
         <p className="text-sm text-[#19182580]">

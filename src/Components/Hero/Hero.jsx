@@ -17,7 +17,7 @@ const Hero = () => {
             </button>
           </div>
           <div className="md:space-y-8 md:py-4 py-4 space-y-4">
-            <h1 className="text-2xl md:text-4xl tracking-widest font-bold">
+            <h1 className="text-3xl md:text-4xl tracking-widest font-bold">
               Travel <span className="text-[#F85E9F]">top destination </span>of
               the world
             </h1>

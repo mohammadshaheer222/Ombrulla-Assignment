@@ -4,10 +4,10 @@ const Services = () => {
   return (
     <div className="px-4 pb-10 sm:space-x-4 sm:space-y-0 lg:flex lg:px-16 xl:px-32 lg:justify-center lg:items-center ">
       <div className="text-center space-y-4 lg:text-start lg:w-[70%]">
-        <h1 className="text-2xl uppercase text-[#F85E9F] tracking-widest font-bold">
+        <h1 className="text-lg lg:text-2xl uppercase text-[#F85E9F] tracking-widest font-bold">
           Services
         </h1>
-        <h3 className="text-4xl font-bold tracking-wider">
+        <h3 className="text-2xl lg:text-4xl font-bold tracking-wider">
           Our top value categories for you
         </h3>
       </div>
