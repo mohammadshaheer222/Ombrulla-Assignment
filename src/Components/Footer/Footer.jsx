@@ -54,7 +54,7 @@ const Footer = () => {
             <div
               className={`details ${openSections[data.title] ? "show" : ""}`}
             >
-              <ul className="space-y-4 py-2">
+              <ul className="space-y-4 lg:space-y-8 lg:py-8 py-4 text-[#19182580]">
                 {data.details.map((detail, index) => (
                   <li key={index}>{detail}</li>
                 ))}

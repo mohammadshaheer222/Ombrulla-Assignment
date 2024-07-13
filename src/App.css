@@ -14,3 +14,60 @@
     overflow: visible;
   }
 }
+
+/* Custom styling for the slider and slides */
+.custom-slider {
+  margin: 0 -10px; /* Adjust margin as per your spacing requirement */
+}
+
+.custom-slider .slick-slide {
+  padding: 0 10px; /* Adjust padding between slides */
+}
+
+.swiper-container {
+  position: relative;
+}
+
+.arrow-container {
+  position: absolute;
+  top: 10px; /* Adjust as per your design */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px; /* Adjust padding as needed */
+  z-index: 10;
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+.next {
+  margin-left: auto; /* Adjust for right positioning */
+}
+
+.prev {
+  margin-right: auto; /* Adjust for left positioning */
+}
+
+/* Ensure consistent height for all slides */
+.slide-container {
+  height: 100%; /* Set a fixed height for each slide */
+}
+
+.slide {
+  height: 100%; /* Ensure the slide takes full height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.slide-image {
+  width: 100%;
+  height: auto;
+  max-height: 200px; /* Adjust maximum height for images */
+}
+
+.space-y-2 {
+  margin-top: 0.5rem; /* Adjust space between paragraphs */
+}
